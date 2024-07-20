@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color:  #105213;
+    position: relative;
+    height: 120px;
+}
+.ser{
+    position: relative;
+    justify-content: center;
+    margin-left: 575px;
+    top: 20px;
+    font-size: 70px;
+}
+.logo{
+    position: absolute;
+    width: 110px;
+    top: 5px;
+    left: 20px;
+}
+.logo2{
+    position: absolute;
+    width: 110px;
+    top: 5px;
+    right: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #4E761C;
+    padding: 1em 0;
+}
+video{
+    right: 25px;
+    top: 10px;
+    width: 500px;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
+article {
+    width: 70%;
+    margin-left: 10%;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+p, ul, table {
+    color: #555;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+aside {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-left: 4px solid #333;
+}
+
+
+.references {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e8e8e8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.references h4 {
+    margin-top: 0;
+}
+
+.references p {
+    margin: 0;
+}
+
+.references a {
+    color: #333;
+    text-decoration: none;
+}
+
+.references a:hover {
+    text-decoration: underline;
+}
+
+
+.bodi {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.registros {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.regis, .inicio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.regis h1, .inicio h1 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.regis label, .inicio label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.regis input, .inicio input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.regis button, .inicio button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.regis button:hover, .inicio button:hover {
+    background-color: #555;
+}
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.contenido {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: left;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p, ul {
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+.redes{
+    position: relative;
+    width: 360px;
+}
+.seo{
+    position: absolute;
+    width: 360px;
+    right: 200px;
+    bottom: 70px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
